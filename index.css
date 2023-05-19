@@ -20,9 +20,9 @@ section{
     width: 400px;
     height: 450px;
     background: transparent;
-    border: 2px solid rgba(255, 244, 233, 0.5);
+    border: 2px solid none;
     border-radius: 40px;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@ h2{
      font-size: 2em;
      color: #fff;
      text-align: center;
+     font-weight: 700;
 }
 
 .inputbox{
@@ -108,7 +109,10 @@ button{
     font-size: 1em;
     font-weight: 700;
 }
-
+button:hover{
+    background-color: darkturquoise;
+    transition: 0.5s;
+}
 .register{
     font-size: .9em;
     color: #fff;
